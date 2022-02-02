@@ -1,0 +1,35 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "bsctestnet": "hardhat run --network bsctestnet scripts/deploy.ts --show-stack-traces",
+    "bscmainnet": "hardhat run --network bscmainnet scripts/deploy.ts --show-stack-traces",
+    "ethtestnet": "hardhat run --network ethtestnet scripts/deploy.ts --show-stack-traces",
+    "ethmainnet": "hardhat run --network ethmainnet scripts/deploy.ts --show-stack-traces"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.11",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@typechain/ethers-v5": "^8.0.5",
+    "@typechain/hardhat": "^3.0.0",
+    "@typechain/truffle-v5": "^6.0.0",
+    "@typechain/web3-v1": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "hardhat": "^2.7.0",
+    "hardhat-typechain": "^0.3.5",
+    "ts-generator": "^0.1.1",
+    "typechain": "^6.0.5"
+  }
+}
